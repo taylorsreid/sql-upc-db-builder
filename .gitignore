@@ -1,0 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+usrinfo
+usrinfo.*
+usrinfo.txt
+usrinfo.csv
+#*.py[cod]
+#*$py.class

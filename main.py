@@ -1,4 +1,5 @@
 #Library import with error messages.
+import getpass
 try:
     import mysql.connector
     print("MySQL Connector imported successfully...")
@@ -11,9 +12,15 @@ except:
 try:
     #Locations & Credentials
     mydb = mysql.connector.connect(
-        host = "", #STORE IN A SEPARATE FILE THAT IS GITIGNORED
-        user = "", #STORE IN A SEPARATE FILE THAT IS GITIGNORED
-        password = "" #STORE IN A SEPARATE FILE THAT IS GITIGNORED
+        '''
+        host = input("Host address:  "),
+        user = input("Username:  "),
+        password = getpass.getpass()
+        '''
+
+        host = "",
+        user = "",
+        password = ""
     )
     #cursor object declaration
     mycursor = mydb.cursor()
