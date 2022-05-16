@@ -4,5 +4,6 @@ usrinfo
 usrinfo.*
 usrinfo.txt
 usrinfo.csv
+test.py
 #*.py[cod]
 #*$py.class
