@@ -1,0 +1,11 @@
+This is a simple program written in Python to add products to a MySQL database.
+It can add to 3 columns of your database: upc, name, and price.
+To use this program you must create a file named usrinfo.txt in the same folder as the main.py file and use the following format:
+    yourhostaddressgoeshere
+    yourusernamegoeshere
+    yourpasswordgoeshere
+    yourdatabasenamegoeshere
+Nothing more, nothing less.
+
+Enjoy,
+Taylor
